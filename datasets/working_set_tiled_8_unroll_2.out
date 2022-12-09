@@ -1,0 +1,84 @@
+# started on Wed Dec  7 14:17:09 2022
+
+
+ Performance counter stats for './working_set_tiled_8_unroll_2 1000':
+
+            154.46 msec task-clock:u              #    0.998 CPUs utilized          
+       682,207,877      cycles:u                  #    4.417 GHz                      (37.52%)
+     2,063,045,748      instructions:u            #    3.02  insn per cycle           (50.47%)
+         1,282,598      cache-references:u        #    8.304 M/sec                    (63.10%)
+           330,193      cache-misses:u            #   25.744 % of all cache refs      (63.10%)
+           232,639      LLC-stores:u              #    1.506 M/sec                    (63.10%)
+            62,979      LLC-store-misses:u        #  407.727 K/sec                    (62.48%)
+           130,826      LLC-loads:u               #  846.969 K/sec                    (24.60%)
+             1,979      LLC-load-misses:u         #    1.51% of all LL-cache accesses  (24.60%)
+
+       0.154763776 seconds time elapsed
+
+       0.151163000 seconds user
+       0.002985000 seconds sys
+
+
+# started on Wed Dec  7 14:17:09 2022
+
+
+ Performance counter stats for './working_set_tiled_8_unroll_2 2000':
+
+            618.84 msec task-clock:u              #    1.000 CPUs utilized          
+     2,745,894,378      cycles:u                  #    4.437 GHz                      (37.46%)
+     8,303,234,636      instructions:u            #    3.02  insn per cycle           (50.06%)
+         7,719,646      cache-references:u        #   12.474 M/sec                    (62.67%)
+         1,982,292      cache-misses:u            #   25.679 % of all cache refs      (62.67%)
+           971,928      LLC-stores:u              #    1.571 M/sec                    (62.67%)
+           337,458      LLC-store-misses:u        #  545.312 K/sec                    (62.54%)
+           612,661      LLC-loads:u               #  990.023 K/sec                    (24.89%)
+            33,215      LLC-load-misses:u         #    5.42% of all LL-cache accesses  (24.89%)
+
+       0.619093589 seconds time elapsed
+
+       0.610499000 seconds user
+       0.005959000 seconds sys
+
+
+# started on Wed Dec  7 14:17:10 2022
+
+
+ Performance counter stats for './working_set_tiled_8_unroll_2 4000':
+
+          2,494.60 msec task-clock:u              #    1.000 CPUs utilized          
+    11,030,098,679      cycles:u                  #    4.422 GHz                      (37.48%)
+    33,168,255,964      instructions:u            #    3.01  insn per cycle           (49.98%)
+        25,839,342      cache-references:u        #   10.358 M/sec                    (62.48%)
+         7,111,558      cache-misses:u            #   27.522 % of all cache refs      (62.49%)
+         3,915,251      LLC-stores:u              #    1.569 M/sec                    (62.49%)
+         1,435,993      LLC-store-misses:u        #  575.640 K/sec                    (62.52%)
+         2,448,116      LLC-loads:u               #  981.364 K/sec                    (25.01%)
+           118,785      LLC-load-misses:u         #    4.85% of all LL-cache accesses  (25.00%)
+
+       2.495556511 seconds time elapsed
+
+       2.459904000 seconds user
+       0.024864000 seconds sys
+
+
+# started on Wed Dec  7 14:17:13 2022
+
+
+ Performance counter stats for './working_set_tiled_8_unroll_2 8000':
+
+          9,969.94 msec task-clock:u              #    1.000 CPUs utilized          
+    44,079,106,036      cycles:u                  #    4.421 GHz                      (37.50%)
+   132,537,229,048      instructions:u            #    3.01  insn per cycle           (50.00%)
+       122,004,647      cache-references:u        #   12.237 M/sec                    (62.51%)
+        48,098,602      cache-misses:u            #   39.424 % of all cache refs      (62.51%)
+        15,794,319      LLC-stores:u              #    1.584 M/sec                    (62.50%)
+         7,412,178      LLC-store-misses:u        #  743.453 K/sec                    (62.50%)
+        12,022,577      LLC-loads:u               #    1.206 M/sec                    (25.00%)
+         1,307,175      LLC-load-misses:u         #   10.87% of all LL-cache accesses  (25.00%)
+
+       9.972750496 seconds time elapsed
+
+       9.826910000 seconds user
+       0.101256000 seconds sys
+
+
